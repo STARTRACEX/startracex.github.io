@@ -1,0 +1,6 @@
+{
+  "files.exclude": {
+    "src/vite-env.d.ts": true,
+    "tsconfig.json": true,
+  }
+}

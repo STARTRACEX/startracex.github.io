@@ -1,0 +1,32 @@
+:root {
+  font-family: sans-serif;
+  color-scheme: light dark;
+  color: rgba(240 240 240);
+  background: rgb(36 36 36);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: 20px;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+no-support {
+  margin: auto;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: rgb(36 36 36);
+    background-color: rgba(240 240 240);
+  }
+}
