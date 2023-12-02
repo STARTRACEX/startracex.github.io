@@ -2,7 +2,7 @@
   font-family: sans-serif;
   color-scheme: light dark;
   color: rgba(240 240 240);
-  background: rgb(36 36 36);
+  background: rgb(24 24 24);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 }
@@ -22,11 +22,4 @@ body {
 
 no-support {
   margin: auto;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: rgb(36 36 36);
-    background-color: rgba(240 240 240);
-  }
 }
